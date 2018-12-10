@@ -8,7 +8,7 @@
   <meta name="author" content="">
   <link rel="icon" href="../../../../favicon.ico">
 
-  <title>Carousel Template for Bootstrap</title>
+  <title>Enorelax - Experiencias enoturísticas</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +19,28 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos_card.css">
 
 
   <!-- Custom styles for this template -->
   <link href="css/carousel.css" rel="stylesheet">
+  
+    <!--estilos para leaflet-->	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>	
+	<link rel="stylesheet" href="css/MarkerCluster.css" />
+	<link rel="stylesheet" href="css/MarkerCluster.Default.css" />	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<link rel="stylesheet" href="css/leaflet.zoomhome.css" />
+	<link rel="stylesheet" href="css/mapa.css" />
+	
+	<!--js requeridos para leaflet-->	
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+	<script src="js/leaflet.markercluster-src.js"></script>
+	<script src="js/leaflet.zoomhome.min.js"></script>
+	<script src="js/bodegas.js"></script>
+	<script src="js/limite.js"></script>
+	
+  
 </head>
 
 <body>
@@ -311,6 +329,164 @@
       </div>
 
       <hr class="featurette-divider">
+	  
+	  <!-- Ofertas -->
+	  	<!--primer bloque-->
+      <div class="row">
+        
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="card ">			
+				<div class="card-body">
+				<div class="card-header">RESTAURACIÓN</div>			
+					<div class="project" style="background-image: url('images/restaurante.jpg') ">			  
+						<div class="project-hover" >
+							<h5 class="card-title">RESTAURACIÓN</h5>	
+							<p>La comarca de Cariñena cuenta con una excelente oferta de establecimientos de restauración 						centrada en la cocina tradicional aragonesa.</p>
+							<a href="#">DESDE 20€</a>			
+						</div>		
+				
+					</div>   
+				</div>
+			</div>
+        </div>
+		
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="card">			
+				<div class="card-body">
+				<div class="card-header">ALOJAMIENTOS</div>			
+					<div class="project" style="background-image: url('images/alojamiento.jpg')">			  
+						<div class="project-hover" >
+							<h5 class="card-title">RESIDENCIA</h5>	
+							<p>La oferta de alojamientos de la Ruta del Vino se compone de varios Hoteles, Hostales,							Pensiones, apartamentos Turísticos y Casas Rurales</p>
+							<a href="#">DESDE 30€</a>			
+						</div>		
+				
+					</div>   
+				</div>
+			</div>
+        </div>
+		
+		
+			
+		
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+			<div class="card ">			
+				<div class="card-body">
+				<div class="card-header">MUSEO DEL VINO</div>			
+					<div class="project" style="background-image: url('images/museo_vino.jpg')">			  
+						<div class="project-hover" >
+							<h5 class="card-title">MUSEO DEL VINO</h5>	
+							<p>El Museo del Vino forma parte de las dependencias de la Casa de la Viña y el Vino, que se encuentra en una bodega fechada en 1918.</p>
+							<a href="#">ACCEDE</a>			
+						</div>				
+					</div>   
+				</div>
+			</div>
+        </div>
+	</div>
+	<!-- segundo bloque-->
+	  
+	  <!-- Mapa bodegas -->
+			<div class="row">
+				<div class="col-md-12">
+				  <h2 class="featurette-heading">Mapa de las Bodegas de la D.O.</h2>
+				  <p class="lead">Pulsa sobre las ubicaciones para conocer los datos de cada una de las bodegas.</p>
+				</div>
+				<div class="col-lg-12 ">
+					<div id='map' class="custom-popup">
+										<script>
+									  
+										//crea el mapa, centra la vista y define el zoom
+										var map = L.map('map').setView([41.37, -1.175],10);
+										map.removeControl(map.zoomControl);
+										
+										//estilo para los límites de la DO
+										var estilolimite = {
+										"color": "#CC2EFA",
+										"weight": 2, 
+										"opacity": 0.6
+										};
+										
+										//añade los límites de la DO
+										var limite = L.geoJson(limite, { style: estilolimite });
+										limite.addTo(map);
+										
+										//añade Open Street map como mapa base
+										var base = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+										
+										base.addTo(map);
+										
+
+
+										var wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+											attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+										});	
+										
+										//capa ortofoto aérea
+										var ortofoto = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+										attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+										});
+
+										//crea el clúster de puntos
+										var markers = L.markerClusterGroup();
+											
+										//función que muestra el nombre de la bodega en el popup
+										function popup(feature, layer) { 
+
+											var nombre = feature.properties.CEN_DS_NOM;
+											var salto = "<br>";
+											var municipio = feature.properties.MUNICIPIO;
+											var direccion= feature.properties.LOC_DS_DIR;
+											var telefono = feature.properties.LOC_DS_TEL;
+											var paginaweb = feature.properties.LOC_DS_WEB;
+											var htmlString = "<a href="+paginaweb+" target='_blank'>Ver página web</a><br>";
+											layer.bindPopup(nombre.concat(salto,direccion,' - ',municipio,salto,telefono,salto,htmlString)); 	 
+											
+										}
+										
+										// añade puntos al cluster
+										var puntos = L.geoJson(bodegas, {
+											onEachFeature: popup
+											});	
+										markers.addLayer(puntos);
+										
+										// añade el cluster al mapa
+										map.addLayer(markers);	
+
+										//ajusta la vista a la extensión de la D.O.
+										map.fitBounds(limite.getBounds());
+										
+										//añade control capas										
+										var baseMapas = {
+										"Mapa base": base,
+										"Wikimedia": wikimedia,
+										"Foto aérea": ortofoto,
+										};
+										var overlayMapas = {
+											"Límite D.O.": limite,
+											"Bodegas": markers
+										};										
+										L.control.layers(baseMapas, overlayMapas,{
+										position: 'topright', // 'topleft', 'bottomleft', 'bottomright'
+										collapsed: true // true
+										}).addTo(map);
+										
+										
+										//añade botón para regresar al zoom original
+										var zoomHome = L.Control.zoomHome().addTo(map);
+
+										
+										//añade escala gráfica
+										L.control.scale().addTo(map);
+										
+									  </script>
+
+					</div>
+				</div>
+			</div>
+
+		<!-- Mapa bodegas -->
+		<hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 
