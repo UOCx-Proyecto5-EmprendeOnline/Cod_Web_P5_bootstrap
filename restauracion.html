@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../../../favicon.ico">
+
+  <title>Enorelax - Experiencias enoturísticas</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- -->
+
+  <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/restauracion.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos_card.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/carousel.css" rel="stylesheet">
+  
+    <!--estilos para leaflet-->	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>	
+	<link rel="stylesheet" href="css/MarkerCluster.css" />
+	<link rel="stylesheet" href="css/MarkerCluster.Default.css" />	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<link rel="stylesheet" href="css/leaflet.zoomhome.css" />
+	<link rel="stylesheet" href="css/mapa.css" />
+	
+	<!--js requeridos para leaflet-->	
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet-src.js"></script>
+	<script src="js/leaflet.markercluster-src.js"></script>
+	<script src="js/leaflet.zoomhome.min.js"></script>
+	<script src="js/bodegas.js"></script>
+	<script src="js/limite.js"></script>
+
+  
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">EnoRelax</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+
+	
+		<div class="container">
+
+			<div  class="row view-group">
+                <div class="item col-xs-4 col-lg-4">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                            <img class="group list-group-image img-fluid" src="images/restaurante_care.jpg" alt="Restaurante Care" />
+                        </div>
+                        <div class="caption card-body">
+                            <h4 class="group card-title inner list-group-item-heading">
+                                Restaurante Care</h4>
+                            <p class="group inner list-group-item-text">
+                                Restaurante Care, un espacio concebido para acoger a los amantes de la alta gastronomía en fusión con el mundo del vino, en un entorno inigualable.</p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        Desde 21€</p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn  btn-success" href="http://www.carewines.com/restaurantecare/">Accede</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-xs-4 col-lg-4">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                            <img class="group list-group-image img-fluid" src="images/restaurante_larebotica.jpg" alt="La Rebotica" />
+                        </div>
+                        <div class="caption card-body">
+                            <h4 class="group card-title inner list-group-item-heading">
+                                La Rebotica</h4>
+                            <p class="group inner list-group-item-text">
+                                El restaurante La Rebotica es un establecimiento que se ubica en la zaragozana localidad de Cariñena.
+								Productos de calidad fundamentan su propuesta culinaria</p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        Desde 25€</p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g1596801-d2470683-Reviews-Restaurante_La_Rebotica_de_Carinena-Carinena_Province_of_Zaragoza_Aragon.html">Accede</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item col-xs-4 col-lg-4">
+                    <div class="thumbnail card">
+                        <div class="img-event">
+                            <img class="group list-group-image img-fluid" src="images/restaurante_elparadero.jpg" alt="El Paradero" />
+                        </div>
+                        <div class="caption card-body">
+                            <h4 class="group card-title inner list-group-item-heading">
+                                El Paradero</h4>
+                            <p class="group inner list-group-item-text">
+                                Ubicado en Paliza, El Paradero cuenta con un excelente equipo de profesionales con años de experiencia ofreciendo un servicio personalizado y de calidad.</p>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-6">
+                                    <p class="lead">
+                                        Desde 20€</p>
+                                </div>
+                                <div class="col-xs-12 col-md-6">
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g2065138-d2696479-Reviews-Restaurante_El_Paradero-Paniza_Province_of_Zaragoza_Aragon.html">Accede</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>				
+		</div>
+
+   <!-- /.container -->
+
+    <!-- FOOTER -->
+	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+        <div class="container">
+          <div class="row row-30">
+            <div class="col-md-4 col-xl-5">
+              <div class="pr-xl-4">
+                <p> Enorelax ofrece una experiencia de turismo enológico única a sus clientes.
+				</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>Todos los derechos reservados.</span></p>
+              </div>
+            </div>
+            <div class="col-md-4">
+	              <h5>Contacto</h5>
+              <dl class="contact-list">
+                <dt>Dirección:</dt>
+                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:#">info@enorelax.com</a></dd>
+              </dl>
+              <dl class="contact-list">
+                <dt>Teléfonos:</dt>
+                <dd><a href="tel:#">+976 123 456</a> <span> | </span> <a href="tel:#">+600 010203</a>
+                </dd>
+              </dl>
+            </div>
+            <div class="col-md-4 col-xl-3">
+              <h5>Enlaces</h5>
+              <ul class="nav-list">
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+				<li><a href="#">Política de cookies</a></li>
+                <li><a href="#">Política de privacidad</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+	
+	
+
+  </main>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="js/vendor/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+</body>
+
+</html>
