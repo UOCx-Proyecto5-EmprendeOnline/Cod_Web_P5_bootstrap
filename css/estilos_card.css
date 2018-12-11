@@ -63,11 +63,13 @@
 }
 
 .card {
-    border: 0!important
+    border: 0!important;
+	padding: 3px;
 }
 
 .card-body {
-    padding: 0!important
+    padding: 0!important;
+	
 }
 
 .card-header {
@@ -83,7 +85,8 @@
 
     .card {
         height: 100%;
-        width: 100%
+        width: 100%;
+		
     }
     .col-lg-4 {
         padding: 0!important
