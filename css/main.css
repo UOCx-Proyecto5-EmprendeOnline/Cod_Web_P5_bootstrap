@@ -187,3 +187,11 @@
 {
 	border: solid 2px #FFFFFF;
 }
+
+/*********************************
+4.34 Barra de navegación
+**********************************/
+.navbar {
+    position: fixed;
+    background-color: #1c082e!important
+}
