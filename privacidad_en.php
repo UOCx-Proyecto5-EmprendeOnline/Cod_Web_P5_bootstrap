@@ -67,8 +67,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="museovino_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="museovino_en.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="privacidad_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="privacidad.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -82,37 +82,29 @@
       
     <div class="container marketing">
         
-       <hr class="featurette-divider">
-
       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Cariñena Wine Museum<span></h2>
-          <p class="lead">It is located in an old winery from 1918, acquired by the Cariñena Denomination of Origin in the 90's. The restoration, carried out by the architects Ángel Comeras, Javier Gracia and José Luis Anadón, has conserved the main parts of the building, including the wooden deck. It also highlights its modernist facade.</p>
+        <div class="col-md-12">
+          <h2 class="featurette-heading">PRIVACY POLICY<span></h2>
+          <p class="lead">Enorelax is strongly committed to protecting your privacy and providing a safe online experience for all of our users and customers while offering the highest quality user experience to them.</p>
         </div>
-        <div class="col-md-5">
-          <img class="rounded-circle" src="images/foto_4.jpg"
-            alt="Foto senderismo" width="500" height="400">
+		
+         <div class="col-md-12">
+          <h2 class="featurette-heading">WHAT INFORMATION DO WE COLLECT ABOUT YOU<span></h2>
+          <p class="lead">Information is gathered in several ways, depending upon how you are using the website. When registering to use this site, you are asked to provide your name and related details. And if you sign up for newsletters, sweepstakes, contests, chat rooms, message boards and similar interactive areas, or purchase something, you may be asked for name, email address. Users may, however, visit the Site anonymously. We will collect personal identification information from Users only if they voluntarily submit the information to us. Users can refuse to supply personal identification information but it may prevent them from engaging in certain Site activities.</p>
         </div>
+		
+		<div class="col-md-12">
+          <h2 class="featurette-heading">HOW IS COLLECTED INFORMATION USED<span></h2>
+          <p class="lead">We use information you provide to fulfill your request and improve our website, products and services. The information we gather is to make your visit to our site the best experience possible. It enables us to customize things such as content and advertising, which might be of interest to you. We may use the email address to send User information and updates pertaining to an order, respond to inquiries, questions, or other requests.</p>
+        </div>
+		
+	   <div class="col-md-12">
+          <h2 class="featurette-heading">HOW DO WE PROTECT YOUR INFORMATION<span></h2>
+          <p class="lead">We incorporate standard industry practices internally and with our service providers, which we believe suits the degree of sensitivity of the information involved to maintain the security of your personal information and to avoid its disclosure except as described in this Privacy Policy.</p>
+        </div>
+		
       </div>
-
-       <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Visit hours: </h2>
-          <p class="lead">
-				<h3>Tuesday to friday:</h3>
-				From 10:00 to 14:00
-				From 16:00 to 18:00</p>
-		  <p class="lead">
-				<h3>Saturday:</h3>
-				From 11:00 to 14:00
-				From 16:00 to 18:00</p>
-				
-		  <p class="lead">
-				<h3>Sunday</h3>
-				From 11:00 to 14:00</p>
-        </div>
-      </div>
-		<hr class="featurette-divider">
+	  <hr class="featurette-divider">
 
 
     </div><!-- /.container -->
@@ -120,44 +112,8 @@
 
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax ofrece una experiencia de turismo enológico única a sus clientes.
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>Todos los derechos reservados.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contacto</h5>
-              <dl class="contact-list">
-                <dt>Dirección:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Teléfonos:</dt>
-                <dd><a href="tel:#">+34 976 123456</a> <span> | </span> <a href="tel:#">+34 600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Enlaces</h5>
-              <ul class="nav-list">
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-				<li><a href="#">Política de cookies</a></li>
-                <li><a href="#">Política de privacidad</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </footer>
+	<?php include("footer_en.html");?>
+    </footer>
 	
 	
 

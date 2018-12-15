@@ -36,7 +36,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">EnoRelax</a>
+      <a class="navbar-brand" href="#">EnoRelax</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -55,8 +55,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="alojamientos_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="alojamientos.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="alojamientos_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="alojamientos.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -78,11 +78,11 @@
                             <h4 class="group card-title inner list-group-item-heading">
                                 La Mazuela</h4>
                             <p class="group inner list-group-item-text">
-                                Lodging built on a winery more than 100 years old, conserving its structure and elements of its architecture.</p>
+                                Alojamiento construido sobre una bodega con más de 100 años de antigüedad, conservando de la época su estructura y elementos de su arquitectura. </p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 30€</p>
+                                        Desde 30€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <a class="btn  btn-success" href="https://www.casasrurales.net/hoteles-rurales/la-mazuela-alojamiento-rural--c59263">Accede</a>
@@ -100,11 +100,11 @@
                             <h4 class="group card-title inner list-group-item-heading">
                                 Los Abetos</h4>
                             <p class="group inner list-group-item-text">
-                                Los Abetos Apartments offer 2 spacious apartments in the town of Cariñena, in an environment surrounded by nature.</p>
+                                Los Apartamentos Los Abetos ofrecen 2 espaciosos apartamentos en la localidad de Cariñena, en un entorno rodeado de naturaleza.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 30€</p>
+                                        Desde 30€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <a class="btn btn-success" href="http://www.infohostal.com/guia/zaragoza/carinena/alojamiento/256703/apartamentoslosabetos.html">Accede</a>
@@ -122,11 +122,11 @@
                             <h4 class="group card-title inner list-group-item-heading">
                                 El Hospital</h4>
                             <p class="group inner list-group-item-text">
-                                Rural house located in the charming and small village of Aguarón, province of Zaragoza. It has 3 floors to accommodate a maximum of 12 people</p>
+                                Casa rural situada en la encantadora y pequeña villa de Aguarón, provincia de Zaragoza. Dispone de 3 plantas para alojar a un máximo de 12 personas</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 35€</p>
+                                        Desde 35€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <a class="btn btn-success" href="http://www.casaruralelhospital.es/">Accede</a>
@@ -141,47 +141,9 @@
    <!-- /.container -->
 
     <!-- FOOTER -->
-<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax offers a unique wine tourism experience to its customers
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>
-				All rights reserved.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contact</h5>
-              <dl class="contact-list">
-                <dt>Adress:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Phone:</dt>
-                <dd><a href="tel:#">+34 976 123456</a> <span> | </span> <a href="tel:#">+34 600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Links</h5>
-              <ul class="nav-list">
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-				<li><a href="#">Cookies Policy</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+	<?php include("footer.html");?>
       </footer>
-	
 	
 	
 

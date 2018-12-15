@@ -195,3 +195,23 @@
     position: fixed;
     background-color: #1c082e!important
 }
+
+/*********************************
+4.34 Formulario
+**********************************/
+.formulario {
+    padding-top: 30px;
+}
+
+p.descripcion {
+    font-family: 'Open Sans';
+    text-align: justify;
+    letter-spacing: 1pt;
+	padding-left: 50px;
+	font-size: 1.2em;
+}
+
+h2.contacto {
+    text-align: center;
+    font-family: 'Open Sans'
+}

@@ -36,7 +36,7 @@
 
   <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">EnoRelax</a>
+      <a class="navbar-brand" href="index.html">EnoRelax</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Link</a>
@@ -55,8 +55,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="alojamientos_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="alojamientos.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="restauracion_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="restauracion.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -72,20 +72,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/alojamiento_lamazuela.jpg" alt="La Mazuela" />
+                            <img class="group list-group-image img-fluid" src="images/restaurante_care.jpg" alt="Restaurante Care" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                La Mazuela</h4>
+                                Restaurante Care</h4>
                             <p class="group inner list-group-item-text">
-                                Alojamiento construido sobre una bodega con más de 100 años de antigüedad, conservando de la época su estructura y elementos de su arquitectura. </p>
+                                Restaurante Care, un espacio concebido para acoger a los amantes de la alta gastronomía en fusión con el mundo del vino, en un entorno inigualable.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 30€</p>
+                                        Desde 21€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn  btn-success" href="https://www.casasrurales.net/hoteles-rurales/la-mazuela-alojamiento-rural--c59263">Accede</a>
+                                    <a class="btn  btn-success" href="http://www.carewines.com/restaurantecare/">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -94,20 +94,21 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/apartamentos_losabetos.jpg" alt="Los Abetos" />
+                            <img class="group list-group-image img-fluid" src="images/restaurante_larebotica.jpg" alt="La Rebotica" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                Los Abetos</h4>
+                                La Rebotica</h4>
                             <p class="group inner list-group-item-text">
-                                Los Apartamentos Los Abetos ofrecen 2 espaciosos apartamentos en la localidad de Cariñena, en un entorno rodeado de naturaleza.</p>
+                                El restaurante La Rebotica es un establecimiento que se ubica en la zaragozana localidad de Cariñena.
+								Productos de calidad fundamentan su propuesta culinaria</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 30€</p>
+                                        Desde 25€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="http://www.infohostal.com/guia/zaragoza/carinena/alojamiento/256703/apartamentoslosabetos.html">Accede</a>
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g1596801-d2470683-Reviews-Restaurante_La_Rebotica_de_Carinena-Carinena_Province_of_Zaragoza_Aragon.html">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -116,20 +117,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/alojamiento_elhospital.jpg" alt="El Hospital" />
+                            <img class="group list-group-image img-fluid" src="images/restaurante_elparadero.jpg" alt="El Paradero" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                El Hospital</h4>
+                                El Paradero</h4>
                             <p class="group inner list-group-item-text">
-                                Casa rural situada en la encantadora y pequeña villa de Aguarón, provincia de Zaragoza. Dispone de 3 plantas para alojar a un máximo de 12 personas</p>
+                                Ubicado en Paniza, El Paradero cuenta con un excelente equipo de profesionales con años de experiencia ofreciendo un servicio personalizado y de calidad.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 35€</p>
+                                        Desde 20€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="http://www.casaruralelhospital.es/">Accede</a>
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g2065138-d2696479-Reviews-Restaurante_El_Paradero-Paniza_Province_of_Zaragoza_Aragon.html">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -142,43 +143,7 @@
 
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax ofrece una experiencia de turismo enológico única a sus clientes.
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>Todos los derechos reservados.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contacto</h5>
-              <dl class="contact-list">
-                <dt>Dirección:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Teléfonos:</dt>
-                <dd><a href="tel:#">+34 976 123456</a> <span> | </span> <a href="tel:#">+34 600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Enlaces</h5>
-              <ul class="nav-list">
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-				<li><a href="#">Política de cookies</a></li>
-                <li><a href="#">Política de privacidad</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+	<?php include("footer.html");?>
       </footer>
 	
 	

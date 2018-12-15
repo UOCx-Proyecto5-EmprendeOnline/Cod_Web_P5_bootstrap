@@ -55,8 +55,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="restauracion_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="restauracion.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="alojamientos_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="alojamientos.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -72,20 +72,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/restaurante_care.jpg" alt="Restaurante Care" />
+                            <img class="group list-group-image img-fluid" src="images/alojamiento_lamazuela.jpg" alt="La Mazuela" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                Care Restaurant</h4>
+                                La Mazuela</h4>
                             <p class="group inner list-group-item-text">
-                                Care Restaurant, a space designed to welcome lovers of haute cuisine in fusion with the world of wine, in a unique environment.</p>
+                                Lodging built on a winery more than 100 years old, conserving its structure and elements of its architecture.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 21€</p>
+                                        From 30€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn  btn-success" href="http://www.carewines.com/restaurantecare/">Access</a>
+                                    <a class="btn  btn-success" href="https://www.casasrurales.net/hoteles-rurales/la-mazuela-alojamiento-rural--c59263">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -94,20 +94,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/restaurante_larebotica.jpg" alt="La Rebotica" />
+                            <img class="group list-group-image img-fluid" src="images/apartamentos_losabetos.jpg" alt="Los Abetos" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                La Rebotica</h4>
+                                Los Abetos</h4>
                             <p class="group inner list-group-item-text">
-                              The restaurant La Rebotica is an establishment located in Cariñena.Quality products base their culinary proposal.</p>
+                                Los Abetos Apartments offer 2 spacious apartments in the town of Cariñena, in an environment surrounded by nature.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 25€</p>
+                                        From 30€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g1596801-d2470683-Reviews-Restaurante_La_Rebotica_de_Carinena-Carinena_Province_of_Zaragoza_Aragon.html">Access</a>
+                                    <a class="btn btn-success" href="http://www.infohostal.com/guia/zaragoza/carinena/alojamiento/256703/apartamentoslosabetos.html">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -116,20 +116,20 @@
                 <div class="item col-xs-4 col-lg-4">
                     <div class="thumbnail card">
                         <div class="img-event">
-                            <img class="group list-group-image img-fluid" src="images/restaurante_elparadero.jpg" alt="El Paradero" />
+                            <img class="group list-group-image img-fluid" src="images/alojamiento_elhospital.jpg" alt="El Hospital" />
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                El Paradero</h4>
+                                El Hospital</h4>
                             <p class="group inner list-group-item-text">
-                                Located in Paliza, El Paradero has an excellent team of professionals with years of experience offering a personalized and quality service..</p>
+                                Rural house located in the charming and small village of Aguarón, province of Zaragoza. It has 3 floors to accommodate a maximum of 12 people</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        From 20€</p>
+                                        From 35€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g2065138-d2696479-Reviews-Restaurante_El_Paradero-Paniza_Province_of_Zaragoza_Aragon.html">Access</a>
+                                    <a class="btn btn-success" href="http://www.casaruralelhospital.es/">Accede</a>
                                 </div>
                             </div>
                         </div>
@@ -141,46 +141,10 @@
    <!-- /.container -->
 
     <!-- FOOTER -->
-	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax offers a unique wine tourism experience to its customers
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>
-				All rights reserved.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contact</h5>
-              <dl class="contact-list">
-                <dt>Adress:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Phone:</dt>
-                <dd><a href="tel:#">+34 976 123456</a> <span> | </span> <a href="tel:#">+34 600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Links</h5>
-              <ul class="nav-list">
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-				<li><a href="#">Cookies Policy</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+ <?php include("footer_en.html");?>
       </footer>
+	
 	
 	
 

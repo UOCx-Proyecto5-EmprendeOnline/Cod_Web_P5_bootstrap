@@ -55,8 +55,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="restauracion_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="restauracion.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="restauracion_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="restauracion.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -76,16 +76,16 @@
                         </div>
                         <div class="caption card-body">
                             <h4 class="group card-title inner list-group-item-heading">
-                                Restaurante Care</h4>
+                                Care Restaurant</h4>
                             <p class="group inner list-group-item-text">
-                                Restaurante Care, un espacio concebido para acoger a los amantes de la alta gastronomía en fusión con el mundo del vino, en un entorno inigualable.</p>
+                                Care Restaurant, a space designed to welcome lovers of haute cuisine in fusion with the world of wine, in a unique environment.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 21€</p>
+                                        From 21€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn  btn-success" href="http://www.carewines.com/restaurantecare/">Accede</a>
+                                    <a class="btn  btn-success" href="http://www.carewines.com/restaurantecare/">Access</a>
                                 </div>
                             </div>
                         </div>
@@ -100,15 +100,14 @@
                             <h4 class="group card-title inner list-group-item-heading">
                                 La Rebotica</h4>
                             <p class="group inner list-group-item-text">
-                                El restaurante La Rebotica es un establecimiento que se ubica en la zaragozana localidad de Cariñena.
-								Productos de calidad fundamentan su propuesta culinaria</p>
+                              The restaurant La Rebotica is an establishment located in Cariñena.Quality products base their culinary proposal.</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 25€</p>
+                                        From 25€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g1596801-d2470683-Reviews-Restaurante_La_Rebotica_de_Carinena-Carinena_Province_of_Zaragoza_Aragon.html">Accede</a>
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g1596801-d2470683-Reviews-Restaurante_La_Rebotica_de_Carinena-Carinena_Province_of_Zaragoza_Aragon.html">Access</a>
                                 </div>
                             </div>
                         </div>
@@ -123,14 +122,14 @@
                             <h4 class="group card-title inner list-group-item-heading">
                                 El Paradero</h4>
                             <p class="group inner list-group-item-text">
-                                Ubicado en Paniza, El Paradero cuenta con un excelente equipo de profesionales con años de experiencia ofreciendo un servicio personalizado y de calidad.</p>
+                                Located in Paliza, El Paradero has an excellent team of professionals with years of experience offering a personalized and quality service..</p>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
                                     <p class="lead">
-                                        Desde 20€</p>
+                                        From 20€</p>
                                 </div>
                                 <div class="col-xs-12 col-md-6">
-                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g2065138-d2696479-Reviews-Restaurante_El_Paradero-Paniza_Province_of_Zaragoza_Aragon.html">Accede</a>
+                                    <a class="btn btn-success" href="https://www.tripadvisor.es/Restaurant_Review-g2065138-d2696479-Reviews-Restaurante_El_Paradero-Paniza_Province_of_Zaragoza_Aragon.html">Access</a>
                                 </div>
                             </div>
                         </div>
@@ -143,43 +142,7 @@
 
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax ofrece una experiencia de turismo enológico única a sus clientes.
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>Todos los derechos reservados.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contacto</h5>
-              <dl class="contact-list">
-                <dt>Dirección:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Teléfonos:</dt>
-                <dd><a href="tel:#">+976 123 456</a> <span> | </span> <a href="tel:#">+600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Enlaces</h5>
-              <ul class="nav-list">
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-				<li><a href="#">Política de cookies</a></li>
-                <li><a href="#">Política de privacidad</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+	<?php include("footer_en.html");?>
       </footer>
 	
 	
