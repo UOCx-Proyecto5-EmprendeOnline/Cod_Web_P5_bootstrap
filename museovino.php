@@ -67,8 +67,8 @@
         </ul>
         <div class="multi-idioma">
             <ul>
-                <li> <a class="en" href="museovino_en.html"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="museovino_en.html"><img src="images/spain.png" alt="Castellano" /></a></li>
+                <li> <a class="en" href="museovino_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
+                <li> <a class="es" href="museovino.php"><img src="images/spain.png" alt="Castellano" /></a></li>
             </ul>
         </div>
       </div>
@@ -121,44 +121,9 @@
     <!-- FOOTER -->
 
 	  
-	  	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4">
-                <p> Enorelax ofrece una experiencia de turismo enológico única a sus clientes.
-				</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2018</span><span> </span><span>Enorelax</span><span>. </span><span>Todos los derechos reservados.</span></p>
-              </div>
-            </div>
-            <div class="col-md-4">
-	              <h5>Contacto</h5>
-              <dl class="contact-list">
-                <dt>Dirección:</dt>
-                <dd>Paseo de Sagasta 30, Zaragoza - 50004</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:#">info@enorelax.com</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>Teléfonos:</dt>
-                <dd><a href="tel:#">+34 976 123456</a> <span> | </span> <a href="tel:#">+34 600 010203</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Enlaces</h5>
-              <ul class="nav-list">
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
-				<li><a href="#">Política de cookies</a></li>
-                <li><a href="#">Política de privacidad</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+	 <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
+
+			<?php include("footer.html");?>
       </footer>
 	
 	
