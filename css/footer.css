@@ -1,7 +1,10 @@
 /*********************************
 1. Footer
 **********************************/
-
+footer {
+    padding-top: 1.5%;
+    color: beige;
+}
 .logo_footer {
 	clear: both;
     float: left;

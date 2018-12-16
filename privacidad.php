@@ -55,8 +55,8 @@
     <div class="row">
         <div class="col d-flex flex-row">
           <div class="user_box ml-auto">
-            <div class="user_box_login user_box_link"><a href="index.html"> <img class="margin-top" src="images/spain.png" alt=""></a></div>
-            <div class="user_box_register user_box_link"><img class="margin-top" src="images/united-kingdom.png" alt=""></div>
+            <div class="user_box_login user_box_link"><a href="privacidad.php"> <img class="margin-top" src="images/spain.png" alt=""></a></div>
+            <div class="user_box_register user_box_link"><a href="privacidad_en.php"><img class="margin-top" src="images/united-kingdom.png" alt=""></a></div>
           </div>
         </div>
     </div>
@@ -74,11 +74,10 @@
           </div>
           <div class="main_nav_container ml-auto">
             <ul class="main_nav_list">
-                <li class="main_nav_item"><a href="#">Inicio</a></li>
-                <li class="main_nav_item"><a href="about.html">Quiénes Somos</a></li>
-                <li class="main_nav_item"><a href="offers.html">Packs</a></li>
-                <li class="main_nav_item"><a href="blog.html">news</a></li>
-                <li class="main_nav_item"><a href="contact.html">contact</a></li>
+              <li class="main_nav_item"><a href="index.html">Inicio</a></li>
+							<li class="main_nav_item"><a href="index.html#about">Quiénes Somos</a></li>
+							<li class="main_nav_item"><a href="index.html#packs">Packs</a></li>
+							<li class="main_nav_item"><a href="contacto.php">contacto</a></li>
             </ul>
           </div>
           <div class="hamburger float-right">
@@ -98,11 +97,10 @@
   </div>
   <div class="logo menu_logo"><a href="#"><img src="images/Logo_web_Enorelax.png" alt=""></a></div>
   <ul>
-    <li class="menu_item"><a href="#">home</a></li>
-    <li class="menu_item"><a href="about.html">Quiénes somos</a></li>
-    <li class="menu_item"><a href="offers.html">offers</a></li>
-    <li class="menu_item"><a href="blog.html">news</a></li>
-    <li class="menu_item"><a href="contact.html">contact</a></li>
+      <li class="menu_item"><a href="index.html">Inicio</a></li>
+			<li class="menu_item"><a href="index.html#about">Quiénes somos</a></li>
+			<li class="menu_item"><a href="index.html#packs">packs</a></li>
+			<li class="menu_item"><a href="contacto.php">contacto</a></li>
   </ul>
 </div>
 </div>
