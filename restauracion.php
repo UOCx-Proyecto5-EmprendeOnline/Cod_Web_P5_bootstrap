@@ -167,15 +167,11 @@
 
    <!-- /.container -->
    </main>
-   
+
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
 	<?php include("footer.html");?>
-      </footer>
-	
-	
-
-  
+    </footer>  
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
