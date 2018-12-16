@@ -85,10 +85,6 @@ p a:hover::after {
 	opacity: 0.2;
 }
 
-::selection {}
-
-p::selection {}
-
 h1 {
 	font-size: 48px;
 }
@@ -121,12 +117,6 @@ h6 {
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 }
 
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
-h6::selection {}
 
 .form-control {
 	color: #db5246;
@@ -782,8 +772,6 @@ section {
 	z-index: 10;
 }
 
-.home_slider_custom_dots {}
-
 .home_slider_custom_dot {
 	display: inline-block;
 	position: relative;
@@ -829,8 +817,21 @@ section {
 	transition: all 200ms ease;
 }
 
+
 .home_slider_custom_dot.active div {
 	border: solid 2px #FFFFFF;
+}
+
+.home_slider_custom_dot.active div {
+	border: solid 2px #FFFFFF;
+}
+
+/*********************************
+4.34 Barra de navegación
+**********************************/
+.navbar {
+	position: fixed;
+	background-color: #1c082e !important;
 }
 
 /*********************************
@@ -850,7 +851,7 @@ p.descripcion {
 
 h2.contacto {
 	text-align: center;
-	font-family: 'Open Sans'
+	font-family: 'Open Sans';
 }
 
 
