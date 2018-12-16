@@ -106,7 +106,7 @@
 
   <main role="main" style="min-height: 120vh;">
 
-    <div class="home" style="padding-top: 7%;">
+    <div class="home" style="padding-top: 12%;">
 
     <div class="container marketing">
       <div class="row featurette">
