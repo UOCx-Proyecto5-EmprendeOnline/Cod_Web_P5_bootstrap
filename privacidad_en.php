@@ -140,7 +140,7 @@
 
 
     </div><!-- /.container -->
-
+    </main>
 
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
@@ -149,7 +149,7 @@
 	
 	
 
-  </main>
+  
 
   <!-- Bootstrap core JavaScript
     ================================================== -->

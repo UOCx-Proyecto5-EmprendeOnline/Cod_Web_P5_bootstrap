@@ -157,7 +157,7 @@
 					 </div>
 				</div>
 		</div>
-
+		</main>
 	<!-- /.container -->
 
 	 <!-- FOOTER -->
@@ -168,7 +168,7 @@
 
 
 
-  </main>
+
 
   <!-- Bootstrap core JavaScript
 	 ================================================== -->

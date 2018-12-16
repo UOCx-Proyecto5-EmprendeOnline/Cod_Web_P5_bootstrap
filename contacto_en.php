@@ -162,15 +162,13 @@
           <p class= "descripcion">
             <abbr title="Hours">H</abbr>: Monday - Friday: 9:00 AM to 18:00 PM
           </p>
-		</div>
-		
-	
-	
+		</div>	
 	</div>
 
 
 
     </div><!-- /.container -->
+    </main>
 
 
     <!-- FOOTER -->
@@ -183,7 +181,7 @@
 	
 	
 
-  </main>
+  
 
   <!-- Bootstrap core JavaScript
     ================================================== -->

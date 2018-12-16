@@ -56,7 +56,7 @@
                     </div>
                     <div class="main_nav_container ml-auto">
                         <ul class="main_nav_list">
-                                <li class="main_nav_item"><a href="index_en">Home</a></li>
+                                <li class="main_nav_item"><a href="index_en.html">Home</a></li>
                                 <li class="main_nav_item"><a href="index_en.hmtl#about">About us</a></li>
                                 <li class="main_nav_item"><a href="offers.html">Packs</a></li>
                                 <li class="main_nav_item"><a href="contact.html">Contact</a></li>
@@ -163,7 +163,7 @@
 		</div>
 
    <!-- /.container -->
-
+   </main>
     <!-- FOOTER -->
 	<footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
 	<?php include "footer_en.html";?>
@@ -171,7 +171,7 @@
 
 
 
-  </main>
+  
 
   <!-- Bootstrap core JavaScript
     ================================================== -->
