@@ -55,7 +55,7 @@
 						</div>
 						<div class="main_nav_container ml-auto">
 							<ul class="main_nav_list">
-              <li class="main_nav_item"><a href="index_en.php">home</a></li>
+              <li class="main_nav_item"><a href="index_en.html">home</a></li>
 									<li class="main_nav_item"><a href="index_en.html#about">About us</a></li>
 									<li class="main_nav_item"><a href="index_en.html#packs">Packs</a></li>
 									<li class="main_nav_item"><a href="contact_en.php">contact</a></li>
@@ -78,7 +78,7 @@
 		</div>
 		<div class="logo menu_logo"><a href="#"><img src="images/Logo_web_Enorelax.png" alt=""></a></div>
 		<ul>
-    <li class="menu_item"><a href="index_en.php">Home</a></li>
+    <li class="menu_item"><a href="index_en.html">Home</a></li>
 			<li class="menu_item"><a href="index_en.html#about">About us</a></li>
 			<li class="menu_item"><a href="index_en.html#packs">Packs</a></li>
 			<li class="menu_item"><a href="contact_en.php">Contact</a></li>
