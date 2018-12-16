@@ -13,54 +13,80 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- -->
-  
+  <!-- Custom styles -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/restauracion.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos_card.css">
-	<link rel="stylesheet" type="text/css" href="css/footer.css">
+ 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link href="css/carousel.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type ="text/css" href="css/footer_secciones.css">
 
-
-  <!-- Custom styles for this template -->
-  <link href="css/carousel.css" rel="stylesheet">
-  
-	
-	<!--js requerido para validar formulario-->	
-	<script src="js/validarformulario.js"></script>
-
-
-  
 </head>
 
 <body>
 
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="index.html">EnoRelax</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <div class="multi-idioma">
-            <ul>
-                <li> <a class="en" href="contacto_en.php"><img src="images/united-kingdom.png" alt="English" /></a></li>
-                <li> <a class="es" href="contacto.php"><img src="images/spain.png" alt="Castellano" /></a></li>
-            </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
+	<header class="header">
+
+	<!-- Top Bar -->
+
+	<div class="top_bar">
+		<div class="container">
+			<div class="row">
+					<div class="col d-flex flex-row">
+						<div class="user_box ml-auto">
+							<div class="user_box_login user_box_link"><a href="index.html"> <img class="margin-top" src="images/spain.png" alt=""></a></div>
+							<div class="user_box_register user_box_link"><img class="margin-top" src="images/united-kingdom.png" alt=""></div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main Navigation -->
+
+	<nav class="main_nav">
+		<div class="container">
+			<div class="row">
+					<div class="col main_nav_col d-flex flex-row align-items-center justify-content-start">
+						<div class="logo_container">
+							<div class="logo"><a href="#"><img height="95px" src="images/Logo_web_Enorelax.png" alt="">EnoRelax</a></div>
+						</div>
+						<div class="main_nav_container ml-auto">
+							<ul class="main_nav_list">
+									<li class="main_nav_item"><a href="#">Inicio</a></li>
+									<li class="main_nav_item"><a href="about.html">Quiénes Somos</a></li>
+									<li class="main_nav_item"><a href="offers.html">Packs</a></li>
+									<li class="main_nav_item"><a href="blog.html">news</a></li>
+									<li class="main_nav_item"><a href="contact.html">contact</a></li>
+							</ul>
+						</div>
+						<div class="hamburger float-right">
+							<i class="fa fa-bars trans_200"></i>
+						</div>
+					</div>
+			</div>
+		</div>
+	</nav>
+
+	</header>
+
+	<div class="menu trans_500">
+	<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+		<div class="logo menu_logo"><a href="#"><img src="images/Logo_web_Enorelax.png" alt=""></a></div>
+		<ul>
+			<li class="menu_item"><a href="#">home</a></li>
+			<li class="menu_item"><a href="about.html">Quiénes somos</a></li>
+			<li class="menu_item"><a href="offers.html">offers</a></li>
+			<li class="menu_item"><a href="blog.html">news</a></li>
+			<li class="menu_item"><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
+	</div>
 
   <main role="main">
 
@@ -165,7 +191,8 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="js/vendor/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/validarformulario.js"></script>   
 </body>
 
 </html>
