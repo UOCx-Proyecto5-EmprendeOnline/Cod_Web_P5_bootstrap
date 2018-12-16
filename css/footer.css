@@ -1,5 +1,18 @@
-.context-dark, .bg-gray-dark, .bg-primary {
-	padding-top: 15px;
+/*********************************
+1. Footer
+**********************************/
+footer {
+    padding-top: 1.5%;
+    color: beige;
+}
+.logo_footer {
+	clear: both;
+    float: left;
+    padding-right: 10px;
+}
+
+context-dark, .bg-gray-dark, .bg-primary {
+	padding-top: 30px;
 	padding-bottom: 15px;
     color: rgba(255, 255, 255, 0.7);
 }
