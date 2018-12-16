@@ -7,6 +7,7 @@
 1. Vars and Inits
 2. Set Header
 3. Init Home Slider
+4. Init Menu
 
 ******************************/
 
@@ -34,6 +35,7 @@ $(document).ready(function () {
     });
 
     initHomeSlider();
+    initMenu();
 
     /* 
 
